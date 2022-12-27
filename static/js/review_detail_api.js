@@ -871,7 +871,7 @@ async function post_recomment_report(comment_id) {
 // 알람 
 const notificationSocket = new WebSocket(
     'wss://'
-    + "www.back-gaggamagga.tk"
+    + "www.back-gaggamagga.tk:80" // 127.0.0.1:8000
     + '/ws/notification/'
     + author_id
     + '/'
